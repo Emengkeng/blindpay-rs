@@ -1,0 +1,13 @@
+pub mod api_keys;
+pub mod available;
+pub mod bank_accounts;
+pub mod instances;
+pub mod partner_fees;
+pub mod payins;
+pub mod payouts;
+pub mod quotes;
+pub mod receivers;
+pub mod terms_of_service;
+pub mod virtual_accounts;
+pub mod wallets;
+pub mod webhooks;

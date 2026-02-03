@@ -1,0 +1,24 @@
+[package]
+name = "blindpay"
+version = "0.1.0"
+edition = "2021"
+authors = ["BlindPay <gabriel@blindpay.com>"]
+description = "Official Rust SDK for BlindPay API - Global payments infrastructure"
+license = "MIT"
+repository = "https://github.com/blindpaylabs/blindpay-rust"
+homepage = "https://blindpay.com"
+keywords = ["blindpay", "payments", "api", "sdk", "cryptocurrency"]
+categories = ["api-bindings", "web-programming"]
+readme = "README.md"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+async-trait = "0.1"
+
+[dev-dependencies]
+tokio-test = "0.4"
+mockito = "1.2"
